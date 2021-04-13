@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            ex machina
+        </a>
+
+        <nav>
+            <button class="hamburgermenu" ontoggle="myFunction()">
+                <div class="bars">
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="bar3"></div>
+                </div>
+                
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cast.html">Cast</a></li>
+                    <li><a href="images.html">Images</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </button>
+        </nav>
+    </header>
+
+    <img src="assets/images/banner.jpg" alt="Banner">
+
+    <h1 id="home-text">
+        To erase the line between man and machine
+        <br>
+        is to obscure the line btween men and gods.
+    </h1>
+
+    <video id="home-video" autoplay muted> 
+        <source src="assets/videos/home-video.mp4" type="video/mp4">
+            Your browser does not support the video tag
+    </video>
+
+    <footer>
+        Lili Wall &#169; 2021
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
