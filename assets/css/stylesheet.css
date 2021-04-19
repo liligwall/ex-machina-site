@@ -234,12 +234,6 @@ button:active {
     height: 450px;
 }
 
-/*Cast MQ*/
-@media screen and (max-width: 800px) {
-
-    
-}
-
 /*Images*/
 .row-img {
     display: -ms-flexbox; /* IE10 */
@@ -263,8 +257,6 @@ button:active {
     width: 100%;
 }
 
-/*Images MQ*/
-
 /*Videos*/
 .videos {
     position: absolute;
@@ -284,9 +276,6 @@ iframe {
     margin: 15px;
 }
 
-/*Videos MQ*/
-
-
 /*Footer*/
 footer {
     background-color: white;
@@ -299,12 +288,16 @@ footer {
     bottom: 0;
 }
 
+cite {
+    visibility: hidden;
+}
+
 /*MQ*/
 @media screen and (max-width: 800px) {
-      body {
-        overflow-x: hidden;
+    * {
+        box-sizing: border-box;
     }
-    
+
     header {
         position: sticky;
         top: 0;
@@ -313,6 +306,13 @@ footer {
     .logo {
         top: 15px;
         left: 15px;
+    }
+
+    .logo:hover {
+        color: white;
+        cursor: pointer;
+
+        transform: scale(1.1);
     }
 
     .hamburgermenu {
@@ -363,6 +363,9 @@ footer {
         color: black;
     }
 
+    a:hover {
+        color: #d1242a;
+    }
     #home-video {
         width: 100%;
         height: auto;
